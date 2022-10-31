@@ -1,0 +1,18 @@
+[{
+    "ime":"Petar",
+    "prezime":"Petkov",
+    "telefon":"02325555",
+    "grad":"Skopje"
+},
+{
+    "ime":"Mitre",
+    "prezime":"Mitrov",
+    "telefon":"02325455",
+    "grad":"Stip"
+},
+{
+    "ime":"Gjoko",
+    "prezime":"Markov",
+    "telefon":"02322555",
+    "grad":"Resen" 
+}]

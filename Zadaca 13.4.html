@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Gradovi</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        #table,th,td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>	
+    <form name="form" id="form">
+    <label>Gradovi:</label>
+        <select name="select" id="select" onchange = "changeOption(this.value)">
+        <option value="Odberi">Odberi</option>
+        <option value="Skopje">Skopje</option>
+        <option value="Stip">Stip</option>
+        <option value="Resen">Resen</option>
+        </select><br/>
+    </form>
+    <div id="div">
+    <table id="table">
+        <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Prezime</th>
+            <th>Telefon</th>
+            <th>Grad</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+        </div>
+   <script src="script_13.4.js"></script>
+</body>
+</html>
